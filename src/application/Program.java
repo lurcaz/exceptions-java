@@ -20,7 +20,7 @@ public class Program {
 			int number = sc.nextInt();
 			System.out.print("Check-in date (dd/MM/yyyy): ");
 			Date checkIn = sdf.parse(sc.next());
-			System.out.print("Check-out date (dd/MM/yyyy): ");
+			System.out.print("Checkout date (dd/MM/yyyy): ");
 			Date checkOut = sdf.parse(sc.next());
 			
 			Reservation reservation = new Reservation(number, checkIn, checkOut);
